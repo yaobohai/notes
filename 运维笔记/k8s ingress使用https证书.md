@@ -3,7 +3,7 @@
 ## 创建secret
 
 ```bash
-$ kubectl create secret tls 证书名 --key key --cert STAR_itan90_cn.crt -n 命名空间
+$ kubectl create secret tls 证书名 --key key文件 --cert crt文件 -n 命名空间
 ```
 
 ## 查看secret
