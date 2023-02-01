@@ -13,13 +13,12 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: testsecret-tls
-  namespace: default
+  namespace: 命名空间
 data:
   tls.crt: base64 encoded cert
   tls.key: base64 encoded key
 type: kubernetes.io/tls
 ```
-
 
 ## 查看secret
 
