@@ -1,6 +1,6 @@
 # [k8s] 容器启动前执行chmod授权操作
 
-步骤：挂载需要重新授权的存储，使用busybox来完成，具体yaml如下
+步骤：挂载需要重新授权的存储，使用busybox来完成，具体描述文件如下
 
 ```yaml
       initContainers:
