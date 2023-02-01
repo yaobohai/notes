@@ -12,11 +12,11 @@ $ kubectl create secret tls 证书名 --key key文件 --cert crt文件 -n 命名
 apiVersion: v1
 kind: Secret
 metadata:
-  name: testsecret-tls
+  name: 证书名
   namespace: 命名空间
 data:
-  tls.crt: base64 encoded cert
-  tls.key: base64 encoded key
+  tls.crt: base64后的crt文件内容 
+  tls.key: base64后的key文件内容 
 type: kubernetes.io/tls
 ```
 
