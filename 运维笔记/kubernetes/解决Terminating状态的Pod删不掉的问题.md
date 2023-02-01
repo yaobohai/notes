@@ -12,5 +12,5 @@ int             sas-service-89a8h81-9765d746f-jf2pk                     3/3     
 解决方法:
 
 ```
-kubectl delete pods -n <namespace> <podname> --grace-period=0 --force
+$ kubectl delete pods -n <namespace> <podname> --grace-period=0 --force
 ```
