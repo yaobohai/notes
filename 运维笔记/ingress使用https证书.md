@@ -1,4 +1,4 @@
-# [k8s] ingress使用https证书
+# kubernetes ingress使用https证书
 
 ## 创建secret
 
