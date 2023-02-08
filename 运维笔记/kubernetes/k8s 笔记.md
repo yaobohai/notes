@@ -1,7 +1,17 @@
 # k8s 笔记
 
-复制k8s容器内的文件
+ ## 常用工具下载
 
+```shell
+wget https://init.ac/files/argocd -P /usr/local/bin/ \
+&& chmod +x /usr/local/bin/argocd
+
+wget https://init.ac/files/kustomize -P /usr/local/bin/ \
+&& chmod +x /usr/local/bin/kustomize
 ```
+
+## 复制k8s容器内的文件
+
+```shell
 kubectl cp <命名空间>/<pod-name>:<容器文件路径> <主机路径>
 ```
