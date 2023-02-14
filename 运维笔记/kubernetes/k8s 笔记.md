@@ -25,5 +25,5 @@ kubectl cp <命名空间>/<pod-name>:<容器文件路径> <主机路径>
 wget https://init.ac/files/kubectl-node_shell -P /usr/local/bin/ && chmod +x /usr/local/bin/kubectl-node_shell
 
 kubectl get node
-kubectl node-shell <node-names>
+kubectl node-shell <node-name>
 ```
