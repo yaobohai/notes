@@ -8,6 +8,7 @@ wget https://init.ac/files/argocd -P /usr/local/bin/ \
 
 wget https://init.ac/files/kustomize -P /usr/local/bin/ \
 && chmod +x /usr/local/bin/kustomize
+
 wget https://init.ac/files/kubectl-node_shell -P /usr/local/bin/ \
 && chmod +x /usr/local/bin/kubectl-node_shell
 ```
