@@ -19,4 +19,7 @@ wget https://init.ac/files/kubectl-node_shell -P /usr/local/bin/ && chmod +x /us
 kubectl cp <命名空间>/<pod-name>:<容器文件路径> <主机路径>
 ```
 
-## de
+## 登录k8s节点
+
+```
+``
