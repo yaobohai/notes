@@ -3,12 +3,13 @@
  ## 常用工具下载
 
 ```shell
+# argocd
 wget https://init.ac/files/argocd -P /usr/local/bin/ \
 && chmod +x /usr/local/bin/argocd
-
+# kustomize
 wget https://init.ac/files/kustomize -P /usr/local/bin/ \
 && chmod +x /usr/local/bin/kustomize
-
+# kubectl-node_shell
 wget https://init.ac/files/kubectl-node_shell -P /usr/local/bin/ \
 && chmod +x /usr/local/bin/kubectl-node_shell
 ```
