@@ -34,4 +34,7 @@ rm -rf passwd.txt
 ```
 
 ###  启动ftp
+
+```
 systemctl start vsftpd
+```
