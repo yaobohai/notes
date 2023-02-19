@@ -18,7 +18,8 @@ kubectl exec -it nginx-ingress-controller-6b7f7f66-lpkkt grep 'client_max_body_s
 ```
 
 
-### 保留自定义
+### 保留自定义变量
+
 ```
 apiVersion: v1
 data:
