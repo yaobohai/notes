@@ -17,5 +17,3 @@ metadata:
 kubectl exec -it nginx-ingress-controller-6b7f7f66-lpkkt grep 'client_max_body_size' nginx.conf -n ingress-nginx|grep 20m
 ```
 
-
-![](i/ca477d98-c00f-462b-8c9d-1ea70d27398c.png)
