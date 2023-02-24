@@ -84,7 +84,7 @@
 
 这种问题也是，很明显通过搜索引擎就能搞定的，要是下次还有这种问题，你就把这个图发给它。
 
-![img](http://wx3.sinaimg.cn/large/006ARE9vgy1fwntelg0mlj30b40b4gm1.jpg)
+![img](https://camo.githubusercontent.com/e539c855ee46a11104125414f9bc3f896c31d38a597b8fef840520c87d483fdc/687474703a2f2f7778332e73696e61696d672e636e2f6c617267652f303036415245397667793166776e74656c67306d6c6a33306234306234676d312e6a7067)
 
 
 #### 建议的问法：
