@@ -72,6 +72,34 @@ https://colab.research.google.com/drive/1FFGO7zyrZwp0yePWdK1cH_s-75wx6JOF?usp=sh
 
 ![](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/abOunF.png)
 
+### 3.4 运行stable-diffusion
+
+点击运行运行旁边的启动按钮，则可在colab运算资源中运行stable-diffusion运算项目，当出现 `Running on public URL` 则说明项目启动完毕，接着点击该链接，会跳转到一个新的页面：“stable-diffusion-webui” 此时colab的页面我们不用去管他 (也不要关闭)。
+
+![](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/urkl4u.png)
+
+
+## 4. 制作图形
+
+### 4.1 导入模型
+
+点橙色按钮 `Generate` 下面的第三个按钮，接着来到Lora层级，选择三个任意一个模型。
+
+![](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/NVGsNZ.jpg)
+
+### 4.2 配置参数
+
+在 4.1 选择好模型后，会自动在上方第一个大框中填上模型的前缀，然后我们在后面加上一些我们想要的参数
+
+![](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/POdms6.png)
+
+第一个框中输入的参数：
+
+```
+// 注意事项：选一个模型之后，会自动在第一个输入框填充前缀，不要删除
+
+1 girl in JK uniform,cute,wear glasses,solo,stand,dating,(nose blush),(smile:1.15),(grin) big breasts,Long legged
+```
 
 
 
