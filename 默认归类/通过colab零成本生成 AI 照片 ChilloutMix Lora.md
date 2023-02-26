@@ -9,10 +9,11 @@
 
 准备材料：
 
-
 - 运算资源 https://colab.research.google.com/ 
 - 存放模型的硬盘 https://drive.google.com/ 
 - 模型&关键词 https://civitai.com/
 
 
 ## 1.下载 LORA 模型到本地
+
+
