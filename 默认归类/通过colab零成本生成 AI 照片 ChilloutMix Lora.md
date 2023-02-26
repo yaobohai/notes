@@ -9,7 +9,7 @@
 
 准备材料：
 
-- - Google账户
+- 谷歌
 - 富强代理 (懂得都懂吧？)
 - 运算资源 https://colab.research.google.com/ 
 - 存放模型的硬盘 https://drive.google.com/ 
