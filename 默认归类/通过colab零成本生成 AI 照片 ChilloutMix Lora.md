@@ -9,11 +9,19 @@
 
 准备材料：
 
+- d
 - 运算资源 https://colab.research.google.com/ 
 - 存放模型的硬盘 https://drive.google.com/ 
 - 模型&关键词 https://civitai.com/
 
 
 ## 1.下载 LORA 模型到本地
+
+```
+打开链接下载模型，也可以打开 civitai.com 下载其他模型
+https://civitai.com/models/7448/korean-doll-likeness
+https://civitai.com/models/7716/taiwan-doll-likeness
+https://civitai.com/models/10135/japanese-doll-likeness
+```
 
 
