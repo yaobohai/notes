@@ -9,7 +9,7 @@
 
 准备材料：
 
-- 富强代理 (本文大部分内容都)
+- 富强代理 (懂得都懂吧？)
 - 运算资源 https://colab.research.google.com/ 
 - 存放模型的硬盘 https://drive.google.com/ 
 - 模型&关键词 https://civitai.com/
