@@ -124,6 +124,7 @@ paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), low
 需要注意的是，如果需要同时生成多张图片，修改下 `Batch size` 的值即可，但需要注意的是，不要生成太多，免费的运算资源GPU不够用，生成图片要消耗的时间就更长。
 
 ## 最后
+
 ```
 1、更多关键词可以在 https://civitai.com/ 查看获取
 2、每张图片右侧都有生成的参数、词汇等信息
