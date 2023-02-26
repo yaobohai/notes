@@ -70,7 +70,6 @@ https://colab.research.google.com/drive/1FFGO7zyrZwp0yePWdK1cH_s-75wx6JOF?usp=sh
 
 挂载云盘完成后，就可以把 当时上传到 “model” 目录下的模型文件复制到工作目录了
 
-
 ![](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/abOunF.png)
 
 
