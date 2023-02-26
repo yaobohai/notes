@@ -48,4 +48,18 @@ https://civitai.com/models/10135/japanese-doll-likeness
 https://colab.research.google.com/drive/1FFGO7zyrZwp0yePWdK1cH_s-75wx6JOF?usp=share_link
 ```
 
+### 3.1 初始化
+
+打开后，点击 “连接” 或 “连接到托管的运行时”
+
+![连接](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/5saVpI.png)
+
+当出现 2 时的绿色打勾以及可观察到资源使用时表示已经连接到可分配到计算资源
+
+![初始化](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/s0EXBi.png)
+
+稍等片刻，初始化操作略慢，初始化整个资源库8、9G大小这样，当底部出现 “Runing” 的时候 再次点击运行的图标，停止运行。
+
+
+
 
