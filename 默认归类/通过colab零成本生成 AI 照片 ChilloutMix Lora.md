@@ -43,7 +43,9 @@ https://civitai.com/models/10135/japanese-doll-likeness
 ## 3.在 Colab 运行
 
 ```
-在浏览器打开链接：https://colab.research.google.com/drive/1FFGO7zyrZwp0yePWdK1cH_s-75wx6JOF?usp=share_link
+在浏览器打开链接：
+
+https://colab.research.google.com/drive/1FFGO7zyrZwp0yePWdK1cH_s-75wx6JOF?usp=share_link
 ```
 
 
