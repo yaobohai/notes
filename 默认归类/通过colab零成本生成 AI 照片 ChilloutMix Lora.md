@@ -29,4 +29,8 @@ https://civitai.com/models/10135/japanese-doll-likeness
 
 ## 2.将模型上传到 Google 云端硬盘
 
+```
+
+在浏览器打开链接： https://drive.google.com/
+```
 
