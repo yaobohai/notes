@@ -60,6 +60,20 @@ https://colab.research.google.com/drive/1FFGO7zyrZwp0yePWdK1cH_s-75wx6JOF?usp=sh
 
 稍等片刻，初始化操作略慢，初始化整个资源库8、9G大小这样，当底部出现 “Runing” 的时候 再次点击运行的图标，停止运行。
 
+![停止运行](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/e1xldA.png)
+
+### 3.2 挂载云盘
+
+![](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/gZChT3.png)
+
+### 3.3 复制模型
+
+挂载云盘完成后，就可以把 当时上传到 “model” 目录下的模型文件复制到工作目录了
+
+
+
+![]()
+
 
 
 
