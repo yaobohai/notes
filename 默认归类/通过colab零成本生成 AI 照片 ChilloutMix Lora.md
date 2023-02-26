@@ -31,6 +31,7 @@ https://civitai.com/models/10135/japanese-doll-likeness
 
 ```
 
-在浏览器打开链接： https://drive.google.com/
+在浏览器打开链接：https://drive.google.com/
 ```
+
 
