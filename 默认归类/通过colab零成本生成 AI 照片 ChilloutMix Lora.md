@@ -38,5 +38,12 @@ https://civitai.com/models/10135/japanese-doll-likeness
 ![新建模型目录](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/vUuw7A.png)
 
 
+![将下载的模型上传](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/igfEIX.jpg)
+
+## 3.在 Colab 运行
+
+```
+在浏览器打开链接：https://colab.research.google.com/drive/1FFGO7zyrZwp0yePWdK1cH_s-75wx6JOF?usp=share_link
+```
 
 
