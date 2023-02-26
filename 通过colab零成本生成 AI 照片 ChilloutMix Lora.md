@@ -68,7 +68,7 @@ https://colab.research.google.com/drive/1FFGO7zyrZwp0yePWdK1cH_s-75wx6JOF?usp=sh
 
 ### 3.3 复制模型
 
-挂载云盘完成后，就可以把 当时上传到 “model” 目录下的模型文件复制到工作目录了
+挂载云盘完成后，就可以把 当时上传到 “model” 目录下的模型文件复制到工作目录了，如果在第 2 步骤中，新建的目录名不叫 model ，那自行修改下即可
 
 ![](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/abOunF.png)
 
