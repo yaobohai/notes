@@ -9,7 +9,7 @@
 
 准备材料：
 
-- 谷歌
+- 谷歌账号
 - 富强代理 (懂得都懂吧？)
 - 运算资源 https://colab.research.google.com/ 
 - 存放模型的硬盘 https://drive.google.com/ 
@@ -31,8 +31,8 @@ https://civitai.com/models/10135/japanese-doll-likeness
 ## 2.将模型上传到 Google 云端硬盘
 
 ```
-在浏览器打开链接：https://drive.google.com/
-
+1、在浏览器打开链接：https://drive.google.com/
+2
 
 ```
 
