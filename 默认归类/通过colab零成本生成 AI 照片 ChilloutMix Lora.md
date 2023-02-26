@@ -32,8 +32,11 @@ https://civitai.com/models/10135/japanese-doll-likeness
 
 ```
 1、在浏览器打开链接：https://drive.google.com/
-2
-
+2、新建一个 " model " 的目录,用来存储模型
 ```
+
+![新建模型目录](https://resource.static.tencent.itan90.cn/mac_pic/2023-02-26/vUuw7A.png)
+
+
 
 
