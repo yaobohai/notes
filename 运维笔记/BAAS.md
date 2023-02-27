@@ -149,10 +149,10 @@ k8s.namespace=
 
 ```
 server.port=8080
-spring.redis.database=5
+spring.redis.database=
 spring.redis.host=
 spring.redis.port=6379
-spring.redis.password=yNeButnRDpcQMw5z
+spring.redis.password=
 spring.sleuth.stream.enabled=false
 spring.cloud.nacos.config.enabled=false
 eureka.client.enabled=false
@@ -176,3 +176,4 @@ Xml=
 k8s.enabled=true
 k8s.namespace=
 ```
+
