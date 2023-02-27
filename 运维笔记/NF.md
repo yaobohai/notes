@@ -79,3 +79,6 @@ rumba-mq-aliyun.mnsEndpoint=$${mns_endpoint}
 management.health.rabbit.enabled=false{% endif %}
 
 ```
+
+### nightfury-tag-query-service
+
