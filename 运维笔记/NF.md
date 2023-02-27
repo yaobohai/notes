@@ -80,5 +80,23 @@ management.health.rabbit.enabled=false{% endif %}
 
 ```
 
-### nightfury-tag-query-service
+### nightfury-member-tag-engine-service
+
+```
+management.server.port=8443
+server.port=8080
+eureka.client.serviceUrl.defaultZone=$${eureka_client_service_url_default_zone}
+eureka.instance.hostname=$${eureka_instance_hostname}
+eureka.instance.ip-address=$${eureka_instance_ip_address}
+eureka.instance.non-secure-port=$${eureka_instance_non_secure_port}
+spring.datasource.nightfury.url=jdbc:mysql://$${datasource_url}:$${datasource_port}/$${datasource_db}?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+spring.datasource.nightfury.username=$${datasource_username}
+spring.datasource.nightfury.password=$${datasource_password}
+ots.endPoint=$${ots_endpoint}
+ots.accessKeyId=$${nf_tag_ots_accessKeyId}
+ots.accessKeySecret=$${nf_tag_ots_accessKeySecret}
+ots.instanceName=$${ots_instance_name}
+```
+
+
 
