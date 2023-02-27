@@ -382,4 +382,46 @@ sas-service.oss.urlExpirationMinute=30{% endif %}
 ### zl-oas-pa-service
 
 ```
-`
+server.port=8080
+management.server.port=8443
+eureka.client.healthcheck.enabled=True
+eureka.client.serviceUrl.defaultZone=$${eureka_client_service_url_default_zone}
+eureka.instance.hostname=$${eureka_instance_hostname}
+eureka.instance.ip-address=$${eureka_instance_ip_address}
+eureka.instance.non-secure-port=$${eureka_instance_non_secure_port}
+oas-pa.redis.host=$${redisIp}
+oas-pa.redis.port=$${redisPort}
+oas-pa.redis.password=$${redisPassword}
+oas-pa.redis.dbIndex=$${redisDb}
+oas-pa.dataSource.removeAbandonedTimeout=1800
+oas-pa.dataSource.username=$${datasource_username}
+oas-pa.dataSource.password=$${datasource_password}
+oas-pa.dataSource.url=jdbc:mysql://$${datasource_url}:3306/oas-pa?useUnicode=yes&characterEncoding=utf-8&useSSL=no&serverTimezone=Asia/Shanghai
+{% if cmq_mns_mq==true %}oas-pa.mns.mq=cmq
+rumba-mq-cmq.secretId=$${cmq_secretId}
+rumba-mq-cmq.secretKey=$${cmq_secretKey}
+rumba-mq-cmq.queueEndpoint=$${cmq_queueEndpoint}
+rumba-mq-cmq.topicEndpoint=$${cmq_topicEndpoint}
+management.health.rabbit.enabled=false {% endif %}
+{% if rabbit_mns_mq==true %}oas-pa.mns.mq=rabbitMQ
+rumba-mq-amqp.user=hdmq
+rumba-mq-amqp.passwd=dsagLu8myG6Mq
+rumba-mq-amqp.host=$${mq_host}
+rumba-mq-amqp.port=5672
+rumba-mq-amqp.retry.delayTime=180000
+management.health.rabbit.enabled=true{% endif %}
+{% if rumba_mq_aliyun==true %}oas-pa.mns.mq=aliyun
+rumba-mq-aliyun.accessId=$${mns_accessKeyId}
+rumba-mq-aliyun.secretKey=$${mns_accessKeySecret}
+rumba-mq-aliyun.mnsEndpoint=$${mns_endpoint}
+management.health.rabbit.enabled=false {% endif %}
+{% if rumba_mq_rocketMQ==true %}oas-pa.mns.mq=rocketMQ
+rumba-mq-rocketmq.accessChannel=CLOUD
+rumba-mq-reliableevent.manager.name=R_MQRE
+rumba-mq-rocketmq.accessKey=$${rocketmq_accesskey}
+rumba-mq-rocketmq.secretKey=$${rocketmq_secretkey}
+rumba-mq-rocketmq.instanceId=$${rocketmq_instanceId}
+rumba-mq-rocketmq.producerGroup=baas
+rumba-mq-rocketmq.regionId=$${rocketmq_regionId}
+rumba-mq-rocketmq.nameSrvAddr=$${rocketmq_namesrvaddr}{% endif %}
+```
