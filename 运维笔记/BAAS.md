@@ -3,9 +3,6 @@
 ### config-service
 
 ```
-// 开发配置
-
-
 // 运维配置
 management.server.port=8443
 server.port=8080
@@ -14,3 +11,4 @@ baas-config.dataSource.url=jdbc:mysql://$${datasource_url}:3306/baas?useUnicode=
 baas-config.dataSource.username=$${datasource_username}
 baas-config.dataSource.password=$${datasource_password}
 ```
+
