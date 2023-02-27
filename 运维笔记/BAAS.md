@@ -145,3 +145,5 @@ k8s.enabled=true
 k8s.namespace=
 ```
 
+### spms-sync-server
+
