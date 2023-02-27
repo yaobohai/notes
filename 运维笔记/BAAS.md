@@ -28,6 +28,13 @@ baas-config.dataSource.password=RVDLwgLmqqH17EQh
 spring.cloud.consul.enabled=false
 management.metrics.distribution.percentiles-histogram.http.server.requests=false
 management.metrics.distribution.percentiles.http.server.requests=0.8,0.95,0.99
+
+Xmx=
+Xms=
+Xmn=
+Xml=
+k8s.enabled=true
+k8s.namespace=${namespace}
 ```
 
 ### fms-service
@@ -77,6 +84,13 @@ websocket.authSource=uni
 tlsp.url=$${tlsp_url}
 tlsp.username=$${tlsp_rest_username}
 tlsp.password=$${tlsp_rest_password}{% endif %}
+
+Xmx=
+Xms=
+Xmn=
+Xml=
+k8s.enabled=true
+k8s.namespace=${namespace}
 ```
 
 ### spms-console-server
@@ -103,4 +117,11 @@ spms-console-server.datasource.username=baas
 spms-console-server.datasource.password=RVDLwgLmqqH17EQh
 management.metrics.distribution.percentiles-histogram.http.server.requests=false
 management.metrics.distribution.percentiles.http.server.requests=0.8,0.95,0.99
+
+Xmx=
+Xms=
+Xmn=
+Xml=
+k8s.enabled=true
+k8s.namespace=${namespace}
 ```
