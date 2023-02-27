@@ -177,3 +177,26 @@ k8s.enabled=true
 k8s.namespace=
 ```
 
+
+### spms-zlportal-web
+
+```server.port=8080
+management.server.port=8443
+spring.redis.database=$${redisDb}
+spring.redis.host=$${redisIp}
+spring.redis.port=$${redisPort}
+spring.redis.password=$${redisPassword}
+spring.redis.timeout=30000
+eureka.client.enabled=false
+spms-server.datasource.driver-class-name=com.mysql.jdbc.Driver
+spms-server.datasource.url=jdbc:mysql://$${datasource_url}:3306/$${datasource_db}
+spms-server.datasource.username=$${datasource_username}
+spms-server.datasource.password=$${datasource_password}
+spms-server.datasource.validation-query=values 1
+{% if spms_web_oss_aliyun==true %}spms-web.oss=aliyun
+rumba-oss-aliyun.bucketName=$${oss_bucket}
+rumba-oss-aliyun.connection.accessKeyId=$${oss_accessKeyId}
+rumba-oss-aliyun.connection.accessKeySecret=$${oss_accessKeySecret}
+rumba-oss-aliyun.connection.endpoint=$${oss_accessAddress}
+rumba-oss-aliyun.connection.securetyToken={% endif %}
+```
