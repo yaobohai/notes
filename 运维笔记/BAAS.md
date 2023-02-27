@@ -384,11 +384,7 @@ sas-service.oss.urlExpirationMinute=30{% endif %}
 ```
 server.port=8080
 management.server.port=8443
-eureka.client.healthcheck.enabled=True
-eureka.client.serviceUrl.defaultZone=$${eureka_client_service_url_default_zone}
-eureka.instance.hostname=$${eureka_instance_hostname}
-eureka.instance.ip-address=$${eureka_instance_ip_address}
-eureka.instance.non-secure-port=$${eureka_instance_non_secure_port}
+eureka.client.enabled=false
 oas-pa.redis.host=$${redisIp}
 oas-pa.redis.port=$${redisPort}
 oas-pa.redis.password=$${redisPassword}
