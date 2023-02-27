@@ -10,22 +10,41 @@ eureka.client.enabled=false
 baas-config.dataSource.url=jdbc:mysql://$${datasource_url}:3306/baas?useUnicode=yes&characterEncoding=utf-8&useSSL=no
 baas-config.dataSource.username=$${datasource_username}
 baas-config.dataSource.password=$${datasource_password}
+
+Xmx=
+Xms=
+Xmn=
+Xml=
+k8s.enabled=true
+k8s.namespace=
 ```
 
 
 ### gateway-service
 
-```management.server.port=8443
+```
+management.server.port=8443
 management.endpoints.web.exposure.include=*
-management.security.enabled=False
+management.endpoint.env.enabled=false
+management.endpoint.shutdown.enabled=true
+management.endpoint.sessions.enabled=false
+management.health.rabbit.enabled=false
 management.server.port=8443
 server.port=8080
 server.tomcat.accesslog.pattern=%t %{trace_id}i %a %m %U %s %D %b %{User-Agent}i
+server.tomcat.accesslog.enabled=True
+server.tomcat.accesslog.prefix=localhost_access_log
+server.tomcat.accesslog.suffix=.txt
+server.tomcat.max-threads=1000
+server.tomcat.accept-count=1000
 eureka.client.enabled=false
-baas-config.dataSource.url=jdbc:mysql://$${datasource_url}:3306/baas?useUnicode=yes&characterEncoding=utf-8&useSSL=no
-baas-config.dataSource.username=baas
-baas-config.dataSource.password=RVDLwgLmqqH17EQh
-spring.cloud.consul.enabled=false
+spring.profiles.active=prd
+spring.redis.host=
+spring.redis.port=6379
+spring.redis.database=
+spring.redis.password=
+logging.level.org.springframework.cloud.gateway.handler.predicate=ERROR
+spring.cloud.gateway.discovery.locator.enabled=true
 management.metrics.distribution.percentiles-histogram.http.server.requests=false
 management.metrics.distribution.percentiles.http.server.requests=0.8,0.95,0.99
 
@@ -34,7 +53,7 @@ Xms=
 Xmn=
 Xml=
 k8s.enabled=true
-k8s.namespace=${namespace}
+k8s.namespace=
 ```
 
 ### fms-service
@@ -90,7 +109,7 @@ Xms=
 Xmn=
 Xml=
 k8s.enabled=true
-k8s.namespace=${namespace}
+k8s.namespace=
 ```
 
 ### spms-console-server
@@ -112,9 +131,9 @@ management.endpoint.env.enabled=false
 management.endpoint.shutdown.enabled=true
 management.endpoint.sessions.enabled=false
 spms-console-server.datasource.driver-class-name=com.mysql.jdbc.Driver
-spms-console-server.datasource.url=jdbc:mysql://10.80.96.41:3306/spms?
-spms-console-server.datasource.username=baas
-spms-console-server.datasource.password=RVDLwgLmqqH17EQh
+spms-console-server.datasource.url=jdbc:mysql://$${datasource_url}:3306/spms?
+spms-console-server.datasource.username=
+spms-console-server.datasource.password=
 management.metrics.distribution.percentiles-histogram.http.server.requests=false
 management.metrics.distribution.percentiles.http.server.requests=0.8,0.95,0.99
 
@@ -123,5 +142,5 @@ Xms=
 Xmn=
 Xml=
 k8s.enabled=true
-k8s.namespace=${namespace}
+k8s.namespace=
 ```
