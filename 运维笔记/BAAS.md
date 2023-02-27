@@ -147,4 +147,26 @@ k8s.namespace=
 
 ### spms-sync-server
 
-`
+```
+server.port=8080
+spring.redis.database=5
+spring.redis.host=10.80.96.30
+spring.redis.port=6379
+spring.redis.password=yNeButnRDpcQMw5z
+spring.sleuth.stream.enabled=false
+spring.cloud.nacos.config.enabled=false
+eureka.client.enabled=false
+management.server.port=8443
+management.health.rabbit.enabled=false
+management.endpoint.env.enabled=false
+management.endpoint.shutdown.enabled=true
+management.endpoint.sessions.enabled=false
+spms-sync-server.datasource.driver-class-name=com.mysql.jdbc.Driver
+spms-sync-server.datasource.url=jdbc:mysql://10.80.96.41:3306/spms?
+spms-sync-server.datasource.username=baas
+spms-sync-server.datasource.password=RVDLwgLmqqH17EQh
+spms-sync-server.datasource.validation-query=values 1
+management.metrics.distribution.percentiles-histogram.http.server.requests=false
+management.metrics.distribution.percentiles.http.server.requests=0.8,0.95,0.99
+
+```
