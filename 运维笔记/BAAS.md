@@ -169,4 +169,10 @@ spms-sync-server.datasource.validation-query=values 1
 management.metrics.distribution.percentiles-histogram.http.server.requests=false
 management.metrics.distribution.percentiles.http.server.requests=0.8,0.95,0.99
 
+Xmx=
+Xms=
+Xmn=
+Xml=
+k8s.enabled=true
+k8s.namespace=
 ```
