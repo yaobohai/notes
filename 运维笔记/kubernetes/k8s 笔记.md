@@ -27,3 +27,24 @@ wget https://init.ac/files/kubectl-node_shell -P /usr/local/bin/ && chmod +x /us
 kubectl get node
 kubectl node-shell <node-name>
 ```
+
+## 问题排查工具
+
+
+### dnsutils
+
+- 支持ping、nslookup等常用网络层面需要的命令
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dnsutils
+spec:
+  containers:
+  - name: dnsutils
+    image: mydlqclub/dnsutils:1.3
+    imagePullPolicy: IfNotPresent
+    command: ["sleep","3600"]
+```
+
