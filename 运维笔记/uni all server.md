@@ -3,12 +3,16 @@
 ```
 server.port=8080
 management.server.port=8443
-spring.datasource.url=jdbc:postgresql://$${datasource_pg_url}:$${datasource_pg_port}/$${datasource_pg_db}?reWriteBatchedInserts=true
-spring.datasource.username=$${datasource_pg_username}
-spring.datasource.password=$${datasource_pg_password}
-spring.datasource.driver-class-name=org.postgresql.Driver
-spring.datasource.dbcp2.validation-query=SELECT 1
 
+{% if eureka_client_enabled==true %}
+eureka.client.enabled=true
+eureka.client.serviceUrl.defaultZone=$${eureka_client_service_url_default_zone}
+eureka.instance.hostname=$${eureka_instance_hostname}
+eureka.instance.ip-address=$${eureka_instance_ip_address}
+eureka.instance.non-secure-port=$${eureka_instance_non_secure_port}
+eureka.instance.prefer-ip-address=true
+spring.application.name=uni-all-web
+{% else %}heading.uni.server.url=$${uni_url}
 eureka.client.enabled=false
-spring.application.name=uni-all-server
+{% endif %}
 ```
