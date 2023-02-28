@@ -33,6 +33,7 @@ kubectl node-shell <node-name>
 
 ### dnsutils
 
+
 - 支持ping、nslookup等常用网络层面需要的命令
 
 ```
@@ -43,7 +44,7 @@ metadata:
 spec:
   containers:
   - name: dnsutils
-    image: mydlqclub/dnsutils:1.3
+    image: registry.cn-hangzhou.aliyuncs.com/bohai_repo/dnsutils:1.3
     imagePullPolicy: IfNotPresent
     command: ["sleep","36000"]
 ```
