@@ -45,6 +45,6 @@ spec:
   - name: dnsutils
     image: mydlqclub/dnsutils:1.3
     imagePullPolicy: IfNotPresent
-    command: ["sleep","3600"]
+    command: ["sleep","36000"]
 ```
 
