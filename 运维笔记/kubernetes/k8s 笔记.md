@@ -36,6 +36,7 @@ kubectl node-shell <node-name>
 - 支持ping、nslookup等常用网络层面需要的命令
 
 ```
+$ cat dnsutils.yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -48,3 +49,6 @@ spec:
     command: ["sleep","36000"]
 ```
 
+```
+kubectl create -f dnsutils.yaml -n kube-system
+```
