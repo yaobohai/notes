@@ -33,7 +33,6 @@ kubectl node-shell <node-name>
 
 ### dnsutils
 
-
 - 支持ping、nslookup等常用网络层面需要的命令
 
 ```
