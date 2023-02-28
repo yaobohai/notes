@@ -51,4 +51,5 @@ spec:
 
 ```
 kubectl create -f dnsutils.yaml -n kube-system
+kubectl exec -it dnsutils /bin/sh -n kube-system
 ```
