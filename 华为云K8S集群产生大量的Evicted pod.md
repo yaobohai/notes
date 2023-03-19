@@ -48,6 +48,15 @@ tmpfs                              tmpfs     123G   36K  123G   1% /tmp
 
 
 [root@lianhuan-prd-hd-nodepool-new-w8mte-orm9v kubelet]# ll pods/
+total 144
+drwxr-x--- 5 root root 4096 Feb  9 21:43 0b0b60cf-11d0-43ce-9497-b6b905fc282b
+drwxr-x--- 5 root root 4096 Mar 16 09:21 140e0abd-d101-4933-ae08-b96fe457582e
+[root@lianhuan-prd-hd-nodepool-new-w8mte-orm9v kubelet]# ll pods/0b0b60cf-11d0-43ce-9497-b6b905fc282b/containers/
+total 12
+drwxr-x--- 2 root root 4096 Feb  9 21:43 clear-log
+drwxr-x--- 2 root root 4096 Feb  9 21:43 filebeat
+drwxr-x--- 2 root root 4096 Mar 16 11:28 mas-user-service
+
 ```
 
 根据排查，此文件系统为pod的容器工作目录。
