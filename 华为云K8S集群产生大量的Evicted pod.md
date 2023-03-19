@@ -33,4 +33,22 @@ tmpfs                              tmpfs     123G   36K  123G   1% /tmp
 
 可以看到，文件系统 `/dev/mapper/vgpaas-kubernetes`  磁盘使用率超过了80%,在k8s中，使用率超过85%则会驱逐节点中的pod到其他节点。
 
+4、查看具体的目录作用
+
+```
+[root@lianhuan-prd-hd-nodepool-new-w8mte-orm9v log]# cd /mnt/paas/kubernetes/kubelet
+[root@lianhuan-prd-hd-nodepool-new-w8mte-orm9v kubelet]# du -sh *
+4.0K    cpu_manager_state
+4.0K    device-plugins
+16K     lost+found
+48K     plugins
+4.0K    plugins_registry
+4.0K    pod-resources
+42G     pods
+
+
+[root@lianhuan-prd-hd-nodepool-new-w8mte-orm9v kubelet]# ll pods/
+```
+
+根据排查，此文件系统为pod的容器工作目录。
 
