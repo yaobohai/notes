@@ -58,5 +58,5 @@ drwxr-x--- 2 root root 4096 Feb  9 21:43 filebeat
 drwxr-x--- 2 root root 4096 Mar 16 11:28 mas-user-service
 ```
 
-根据排查，此文件系统为pod的容器工作目录。可能在添加或初始化k8s集群的时候，节点的数据目录分配
+根据排查，此文件系统为pod的容器工作目录。可能在添加或初始化k8s集群的时候，节点的数据目录分配不合理，
 
