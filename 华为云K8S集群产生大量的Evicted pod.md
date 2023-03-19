@@ -6,7 +6,6 @@
 for pod_name in $(kubectl get po -n production|grep 'Evicted'|awk '{print $1}');do echo -e "${pod_name}: \n $(kubectl describe pod -n production ${pod_name}|grep -Ew 'Node|Message'|grep -v 'Node-Selectors')";echo '' ;done
 ```
 
-
 2、错误原因
 
 ```
