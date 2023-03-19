@@ -19,5 +19,16 @@ Message:        Pod The node had condition: [DiskPressure].
 3、根据错误提示，说明节点磁盘可能存在瓶颈，登录到指定的节点，通过 `df -hT` 查看磁盘使用情况
 
 ```
-
+[root@lianhuan-prd-hd-nodepool-new-w8mte-orm9v /]# df -hT
+Filesystem                         Type      Size  Used Avail Use% Mounted on
+devtmpfs                           devtmpfs  122G     0  122G   0% /dev
+tmpfs                              tmpfs     123G     0  123G   0% /dev/shm
+tmpfs                              tmpfs     123G  132M  122G   1% /run
+tmpfs                              tmpfs     123G     0  123G   0% /sys/fs/cgroup
+/dev/sda1                          ext4       49G  3.6G   43G   8% /
+tmpfs                              tmpfs     123G   36K  123G   1% /tmp
+/dev/mapper/vgpaas-dockersys       ext4      442G   27G  393G   7% /var/lib/containerd
+/dev/mapper/vgpaas-kubernetes      ext4       49G   41G  6.0G  88% /mnt/paas/kubernetes/kubelet
 ```
+
+可以
