@@ -31,4 +31,4 @@ tmpfs                              tmpfs     123G   36K  123G   1% /tmp
 /dev/mapper/vgpaas-kubernetes      ext4       49G   41G  6.0G  88% /mnt/paas/kubernetes/kubelet
 ```
 
-可以
+可以看到，文件系统 ``
