@@ -31,4 +31,4 @@ tmpfs                              tmpfs     123G   36K  123G   1% /tmp
 /dev/mapper/vgpaas-kubernetes      ext4       49G   41G  6.0G  88% /mnt/paas/kubernetes/kubelet
 ```
 
-可以看到，文件系统 ``
+可以看到，文件系统 `/dev/mapper/vgpaas-kubernetes`  磁盘使用率超过了80%,在k8s中，使用率超过85%则会驱逐节点中的pod到其他节点
