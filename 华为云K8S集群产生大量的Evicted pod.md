@@ -58,5 +58,5 @@ drwxr-x--- 2 root root 4096 Feb  9 21:43 filebeat
 drwxr-x--- 2 root root 4096 Mar 16 11:28 mas-user-service
 ```
 
-根据排查，此文件系统为pod的容器工作目录。
+根据排查，此文件系统为pod的容器工作目录,。
 
