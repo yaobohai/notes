@@ -18,6 +18,10 @@ echo text
 
 这个jenkinsfile在 https://devops-gitlab.hd123.com/hdops/jenkins_builder git工程下的`bohai`分支`jenkinsfile`目录里，文件名是`Jenkinsfile.bohai`
 
+## Jenkins JOB
+
+在Jenkins中新建 流水线 JOB：
+
 ![](https://resource.static.tencent.itan90.cn/mac_pic/2023-04-13/HMNhba.png)
 
 Job中新增加String参数：勾选 `This project is parameterized` 并选择String Parameter
@@ -26,6 +30,15 @@ Name则是Jenkinsfile中的变量名`text` ，默认值可为空
 
 ![](https://resource.static.tencent.itan90.cn/mac_pic/2023-04-13/yiMkGs.png)
 
-之后划到最下方，在Pipline出，将 `Definition` 更换为 `Pipeline script from SCM` 从远程工程中拉取Pipline
+之后划到最下方，在Pipline出，将 `Definition` 更换为 `Pipeline script from SCM` 从远程工程中拉取Pipline。
 
+```
+SCM：Git 
+
+Repository URL (Git工程的完整位置)：https://devops-gitlab.hd123.com/hdops/jenkins_builder.git
+
+Branches to build（拉取分支）：bohai
+
+Script Path(Jenkinsfile位置): jenkinsfile/Jenkinsfile.bohai
+```
 
