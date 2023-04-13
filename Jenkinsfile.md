@@ -37,8 +37,16 @@ SCM：Git
 
 Repository URL (Git工程的完整位置)：https://devops-gitlab.hd123.com/hdops/jenkins_builder.git
 
+Credentials: Git的认证信息，因为上面的工程为公开的，所以认证也不需要，选择无即可
+
+
 Branches to build（拉取分支）：bohai
 
 Script Path(Jenkinsfile位置): jenkinsfile/Jenkinsfile.bohai
 ```
 
+![](https://resource.static.tencent.itan90.cn/mac_pic/2023-04-13/blkGPg.png)
+
+之后保存。来运行JOB试试
+
+![](https://resource.static.tencent.itan90.cn/mac_pic/2023-04-13/mAq4R4.png)
