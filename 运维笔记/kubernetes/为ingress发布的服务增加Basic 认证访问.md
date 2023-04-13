@@ -19,10 +19,9 @@ apiVersion: v1
 kind: Secret
 type: Opaque
 metadata:
-  namespace: ops
   name: basic-auth
 data:
-  auth: "xxxxxxxxxxxxxxxxxxxxxx"
+  auth: "YWRtaW46JGFwcjEkY3lMdld0ak4kYzdyWUg3Ri5mVFl4d01WeE4waFZ1LwoK"
 EOF
 ```
 
