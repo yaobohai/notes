@@ -76,7 +76,7 @@ http://wms.mkh.cn:9091/index.html/ --> web
         <td>节点数</td>
     </tr>
     <tr>
-        <td rowspan="5">172.26.217.23<br>4核16G</td>
+        <td rowspan="5">10.151.0.151<br>4核16G</td>
         <td>lickit-server</td>
         <td>1</td>
     </tr>
@@ -97,7 +97,7 @@ http://wms.mkh.cn:9091/index.html/ --> web
         <td>1</td>
     </tr>
     <tr>
-        <td rowspan="7">172.26.217.21<br>4核16G</td>
+        <td rowspan="7">10.151.0.228<br>8核32G</td>
         <td>iwms-account</td>
         <td>1</td>
     </tr>
@@ -113,18 +113,6 @@ http://wms.mkh.cn:9091/index.html/ --> web
         <td>wms-server</td>
         <td>1</td>
     </tr>
-    <tr>
-        <td>ips-archive</td>
-        <td>1</td>
-    </tr>
-    <tr>
-        <td>ips-bill</td>
-        <td>1</td>
-    </tr>
-    <tr>
-        <td>ips-control</td>
-        <td>1</td>
-    </tr> 
     <tr>
         <td rowspan="6">172.26.217.22<br>4核16G</td>
         <td>iwms-account</td>
