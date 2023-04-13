@@ -16,7 +16,7 @@ echo text
 
 意思为：里面定义了一个变量text。默认值是hello,world；也可以读取JOB中环境变量env.text的值。加了个if判断如果env里面text不为空就拿env里面的值来echo输出；这个环境变量我们可以通过Jenkins的String Parameter来传入。
 
-这个jenkinsfile在 https://devops-gitlab.hd123.com/hdops/jenkins_builder这个git工程下的`bohai`分支`jenkinsfile`目录里，文件名是`Jenkinsfile.bohai`
+这个jenkinsfile在 https://devops-gitlab.hd123.com/hdops/jenkins_builder git工程下的`bohai`分支`jenkinsfile`目录里，文件名是`Jenkinsfile.bohai`
 
 ![](https://resource.static.tencent.itan90.cn/mac_pic/2023-04-13/HMNhba.png)
 
