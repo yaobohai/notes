@@ -1,3 +1,5 @@
+oracle报错：ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+ 
 ```
 cat /data/oracle/oracle/product/11.2.0/db_1/network/admin/listener.ora
 
@@ -13,3 +15,8 @@ ADR_BASE_LISTENER = /data/oracle/oracle
 
 LOGGING_LISTENER=OFF
 ```
+
+
+
+app服务器 ： jq命令
+
